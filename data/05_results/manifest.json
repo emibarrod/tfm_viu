@@ -1,0 +1,38 @@
+{
+  "mimic_version": "MIMIC-IV v3.1",
+  "lead_time_hours": 6.0,
+  "lead_time_basis": "positives only (controls have no onset_time)",
+  "library_versions": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.17.1",
+    "xgboost": "3.2.0"
+  },
+  "lookback_hours": 24,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "threshold_method": "youden",
+  "device": "cpu",
+  "reference_prevalences": [
+    0.05,
+    0.1
+  ],
+  "cohort_size": 9278,
+  "prevalence": 0.5,
+  "input_paths": {
+    "multimodal_dir": "data/04_multimodal",
+    "abx_dir": "data/04_multimodal_abx"
+  },
+  "outputs": {
+    "metrics_csv": "data/05_results/metrics.csv",
+    "predictions_dir": "data/05_results/predictions",
+    "calibration_dir": "data/05_results/calibration",
+    "feature_cache_dir": "data/05_results/features"
+  },
+  "xgboost_available": true
+}

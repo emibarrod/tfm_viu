@@ -1,0 +1,218 @@
+{
+  "oxygen_flow_device": {
+    "display_name": "Oxygen Flow Device",
+    "unit": "coded",
+    "category": "respiratory",
+    "codes": ["226732"]
+  },
+  "oxygen_flow": {
+    "display_name": "Oxygen Flow",
+    "unit": "L/min",
+    "category": "respiratory",
+    "codes": ["223834", "227287", "224691"]
+  },
+  "richmond_ras": {
+    "display_name": "Richmond-RAS Scale",
+    "unit": "score",
+    "category": "neurological",
+    "codes": ["228096"]
+  },
+  "heart_rate": {
+    "display_name": "Heart Rate",
+    "unit": "bpm",
+    "category": "vital",
+    "codes": ["220045"]
+  },
+  "sbp_arterial": {
+    "display_name": "Systolic Blood Pressure",
+    "unit": "mmHg",
+    "category": "vital",
+    "codes": ["220179", "225309", "220050", "227243", "224167"]
+  },
+  "dbp_arterial": {
+    "display_name": "Diastolic Blood Pressure",
+    "unit": "mmHg",
+    "category": "vital",
+    "codes": ["225310", "224643", "227242", "220051", "220180"]
+  },
+  "map": {
+    "display_name": "Mean Arterial Pressure",
+    "unit": "mmHg",
+    "category": "vital",
+    "codes": ["220181", "220052", "225312", "224322"]
+  },
+  "respiratory_rate": {
+    "display_name": "Respiratory Rate",
+    "unit": "breaths/min",
+    "category": "vital",
+    "codes": ["220210", "224422", "224690"]
+  },
+  "spo2": {
+    "display_name": "SpO2",
+    "unit": "%",
+    "category": "vital",
+    "codes": ["220277", "220227"]
+  },
+  "temp_C": {
+    "display_name": "Body Temperature Celsius",
+    "unit": "C",
+    "category": "vital",
+    "codes": ["223762"]
+  },
+  "temp_F": {
+    "display_name": "Body Temperature Fahrenheit",
+    "unit": "F",
+    "category": "vital",
+    "codes": ["223761"]
+  },
+  "fio2": {
+    "display_name": "FiO2",
+    "unit": "%",
+    "category": "respiratory",
+    "codes": ["223835"]
+  },
+  "peep": {
+    "display_name": "PEEP",
+    "unit": "cmH2O",
+    "category": "respiratory",
+    "codes": ["220339", "224700"]
+  },
+  "tidal_volume": {
+    "display_name": "Tidal Volume",
+    "unit": "mL",
+    "category": "respiratory",
+    "codes": ["224686", "224684", "224421"]
+  },
+  "minute_volume": {
+    "display_name": "Minute Volume",
+    "unit": "L/min",
+    "category": "respiratory",
+    "codes": ["224687"]
+  },
+  "potassium": {
+    "display_name": "Potassium",
+    "unit": "mEq/L",
+    "category": "laboratory",
+    "codes": ["227442", "227464", "50971", "50822"]
+  },
+  "sodium": {
+    "display_name": "Sodium",
+    "unit": "mEq/L",
+    "category": "laboratory",
+    "codes": ["220645", "226534", "50983", "50824"]
+  },
+  "chloride": {
+    "display_name": "Chloride",
+    "unit": "mEq/L",
+    "category": "laboratory",
+    "codes": ["220602", "226536", "50806", "50902"]
+  },
+  "glucose": {
+    "display_name": "Glucose",
+    "unit": "mg/dL",
+    "category": "laboratory",
+    "codes": ["225664", "220621", "226537", "50931", "50809"]
+  },
+  "creatinine": {
+    "display_name": "Creatinine",
+    "unit": "mg/dL",
+    "category": "laboratory",
+    "codes": ["220615", "229761", "51081", "50912"]
+  },
+  "bilirubin_total": {
+    "display_name": "Total Bilirubin",
+    "unit": "mg/dL",
+    "category": "laboratory",
+    "codes": ["225690", "50885", "51464"]
+  },
+  "hemoglobin": {
+    "display_name": "Hemoglobin",
+    "unit": "g/dL",
+    "category": "laboratory",
+    "codes": ["220228", "51222", "50811"]
+  },
+  "hematocrit": {
+    "display_name": "Hematocrit",
+    "unit": "%",
+    "category": "laboratory",
+    "codes": ["220545", "226540", "50810", "51221"]
+  },
+  "wbc": {
+    "display_name": "White Blood Cells",
+    "unit": "K/uL",
+    "category": "laboratory",
+    "codes": ["220546", "51301", "51300"]
+  },
+  "platelets": {
+    "display_name": "Platelet Count",
+    "unit": "K/uL",
+    "category": "laboratory",
+    "codes": ["227457", "51265"]
+  },
+  "pt": {
+    "display_name": "Prothrombin Time",
+    "unit": "s",
+    "category": "laboratory",
+    "codes": ["227465", "51274"]
+  },
+  "ptt": {
+    "display_name": "Partial Thromboplastin Time",
+    "unit": "s",
+    "category": "laboratory",
+    "codes": ["227466", "51275"]
+  },
+  "inr": {
+    "display_name": "International Normalized Ratio",
+    "unit": "ratio",
+    "category": "laboratory",
+    "codes": ["227467", "51237"]
+  },
+  "arterial_o2_pressure": {
+    "display_name": "Arterial O2 Pressure",
+    "unit": "mmHg",
+    "category": "blood_gas",
+    "codes": ["220224", "50821"]
+  },
+  "arterial_co2_pressure": {
+    "display_name": "Arterial CO2 Pressure",
+    "unit": "mmHg",
+    "category": "blood_gas",
+    "codes": ["220235", "50818"]
+  },
+  "arterial_base_excess": {
+    "display_name": "Arterial Base Excess",
+    "unit": "mEq/L",
+    "category": "blood_gas",
+    "codes": ["224828", "50802"]
+  },
+  "lactic_acid": {
+    "display_name": "Lactic Acid",
+    "unit": "mmol/L",
+    "category": "blood_gas",
+    "codes": ["225668"]
+  },
+  "lactate": {
+    "display_name": "Lactate",
+    "unit": "mmol/L",
+    "category": "laboratory",
+    "codes": ["50813"]
+  },
+  "hco3": {
+    "display_name": "HCO3",
+    "unit": "mEq/L",
+    "category": "blood_gas",
+    "codes": ["227443"]
+  },
+  "ph_arterial": {
+    "display_name": "Arterial pH",
+    "unit": "",
+    "category": "blood_gas",
+    "codes": ["223830", "50820"]
+  },
+  "urea_nitrogen": {
+    "display_name": "Urea Nitrogen",
+    "unit": "mg/dL",
+    "category": "laboratory",
+    "codes": ["51006"]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "mimic_version": "MIMIC-IV v3.1",
+  "lookback_hours": 24,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "cell_type": "gru",
+  "max_epochs": 100,
+  "patience": 10,
+  "batch_size": 128,
+  "lr": 0.001,
+  "device": "mps",
+  "device_requested": "auto",
+  "threshold_method": "youden",
+  "library_versions": {
+    "python": "3.11.15",
+    "torch": "2.13.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  },
+  "max_stays": null,
+  "permutation_repeats": 20,
+  "cohort_size": 9278,
+  "input_paths": {
+    "multimodal_dir": "data/04_multimodal",
+    "abx_dir": "data/04_multimodal_abx"
+  },
+  "outputs": {
+    "dl_metrics_csv": "data/05_results/deep_learning/dl_metrics.csv",
+    "dl_feature_importance_csv": "data/05_results/deep_learning/dl_feature_importance.csv",
+    "predictions_dir": "data/05_results/deep_learning/predictions",
+    "calibration_dir": "data/05_results/deep_learning/calibration",
+    "feature_cache_dir": "data/05_results/deep_learning/features"
+  }
+}

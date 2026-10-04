@@ -1,0 +1,27 @@
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Datos derivados de MIMIC-IV: no se redistribuyen (acuerdo de uso).
+# Solo entran los CSV y JSON agregados de resultados que cita la memoria.
+data/*
+!data/05_results/
+data/05_results/*
+!data/05_results/*.csv
+!data/05_results/*.json
+!data/05_results/deep_learning/
+data/05_results/deep_learning/*
+!data/05_results/deep_learning/*.csv
+!data/05_results/deep_learning/*.json
+
+# Salidas locales
+logs/
+*.pdf

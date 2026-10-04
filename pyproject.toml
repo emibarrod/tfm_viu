@@ -1,0 +1,36 @@
+[project]
+name = "sepsis-tfm"
+version = "1.0.0"
+description = "Predicción temprana multimodal de sepsis en UCI (Sepsis-3, MIMIC-IV v3.1) — TFM"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "duckdb>=0.10",
+    "tqdm>=4.60",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.8",
+    "xgboost>=2.0",
+    "torch>=2.2,<3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+# Las etapas 1-5 son scripts con nombre numerado (`1_preprocess_mimic.py`, ...), que no son
+# nombres de módulo válidos y por tanto se ejecutan como ficheros. Lo que se empaqueta —y lo
+# que hace que `from multi_modality_code.utils.pipeline_io import ...` funcione sin
+# PYTHONPATH— es el paquete completo.
+packages = ["multi_modality_code"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

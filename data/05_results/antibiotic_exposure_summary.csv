@@ -1,0 +1,9 @@
+split,arm,n,n_abx_in_window,pct_abx_in_window,pct_abx_after_t0,median_abx_minus_t0_h,p25_abx_minus_t0_h,p75_abx_minus_t0_h,pct_onset_before_abx,median_onset_minus_abx_h
+train,control,3247,1035,31.88,,,,,,
+train,positive,3247,318,9.79,95.23,54.0,43.67,56.94,86.2,-48.0
+val,control,696,219,31.47,,,,,,
+val,positive,696,68,9.77,94.83,54.0,50.75,57.87,87.5,-48.0
+test,control,696,199,28.59,,,,,,
+test,positive,696,67,9.63,94.97,54.0,48.0,57.02,85.63,-48.0
+all,control,4639,1453,31.32,,,,,,
+all,positive,4639,453,9.77,95.13,54.0,44.99,57.11,86.31,-48.0
